@@ -1,0 +1,28 @@
+name: trailtale
+description: A Flutter project for TrailTale.
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Example: Use your actual Flutter SDK constraints
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1 # Or the latest version from pub.dev
+  cloud_firestore: ^4.17.3 # Added cloud_firestore
+
+  cupertino_icons: ^1.0.6 # Or the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Or your current version
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # - assets/images/ # This line includes all images in the assets/images/ folder
